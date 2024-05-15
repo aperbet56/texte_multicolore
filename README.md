@@ -6,7 +6,7 @@ Création d'un texte multicolore.
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/texte_multicolore/
 
 ## Développez avec
 
