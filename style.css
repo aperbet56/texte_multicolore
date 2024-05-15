@@ -1,0 +1,58 @@
+/**** Reset ****/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**** Création de variables CSS ****/
+
+:root {
+  --color-1: #ff0000;
+  --color-2: #000000;
+  --color-3: #0000ff;
+  --color-4: #fafa4d;
+  --color-5: #008000;
+}
+
+/**** Style général de la page ****/
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: calc(100vh - 16px);
+}
+
+p {
+  line-height: 1;
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 900;
+  text-align: center;
+  width: min-content; 
+  margin: auto;
+  background-image: linear-gradient(
+    220deg, var(--color-1) 19%,
+    transparent 19%, transparent 20%,
+    var(--color-2) 20%, var(--color-2) 39%,
+    transparent 39%, transparent 40%,
+    var(--color-3) 40%, var(--color-3) 59%,
+    transparent 59%,transparent 60%,
+    var(--color-4) 60%, var(--color-4) 79%,
+    transparent 79%, transparent 80%, 
+    var(--color-5) 80%
+  );
+  background-clip:text ;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
